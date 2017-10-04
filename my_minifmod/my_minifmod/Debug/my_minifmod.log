@@ -1,0 +1,16 @@
+﻿  main.cpp
+c:\users\veritas501\desktop\my_minifmod\my_minifmod\main.cpp(81): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+c:\users\veritas501\desktop\my_minifmod\my_minifmod\main.cpp(230): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(458): note: 参见“kbhit”的声明
+c:\users\veritas501\desktop\my_minifmod\my_minifmod\main.cpp(232): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\conio.h(452): note: 参见“getch”的声明
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+minifmod.lib(Fmusic.obj) : error LNK2019: 无法解析的外部符号 __imp__waveOutWrite@12，该符号在函数 _FMUSIC_PlaySong 中被引用
+minifmod.lib(Fmusic.obj) : error LNK2019: 无法解析的外部符号 __imp__waveOutPrepareHeader@12，该符号在函数 _FMUSIC_PlaySong 中被引用
+minifmod.lib(Fmusic.obj) : error LNK2019: 无法解析的外部符号 __imp__waveOutOpen@24，该符号在函数 _FMUSIC_PlaySong 中被引用
+minifmod.lib(Fmusic.obj) : error LNK2019: 无法解析的外部符号 __imp__waveOutClose@4，该符号在函数 _FMUSIC_StopSong 中被引用
+minifmod.lib(Fmusic.obj) : error LNK2019: 无法解析的外部符号 __imp__waveOutReset@4，该符号在函数 _FMUSIC_StopSong 中被引用
+minifmod.lib(Fmusic.obj) : error LNK2019: 无法解析的外部符号 __imp__waveOutUnprepareHeader@12，该符号在函数 _FMUSIC_StopSong 中被引用
+minifmod.lib(Fsound.obj) : error LNK2019: 无法解析的外部符号 __imp__waveOutGetPosition@12，该符号在函数 _FSOUND_Software_DoubleBufferThread 中被引用
+C:\Users\veritas501\Desktop\my_minifmod\Debug\my_minifmod.exe : fatal error LNK1120: 7 个无法解析的外部命令
